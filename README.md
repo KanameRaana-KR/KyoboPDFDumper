@@ -136,6 +136,10 @@ KyoboPDFDumper_AGY/
 - 사용자는 자신이 속한 국가/지역의 저작권법 및 교보문고 이용약관을 준수할 책임이 있습니다.
 - 도구 사용으로 발생하는 어떤 법적·기술적 결과에도 개발자는 책임지지 않습니다.
 
+### AI
+
+- Gemini 3.8 Flash(High) + Claude Opus 4.7(Medium)
+
 ---
 
 ## 📜 License

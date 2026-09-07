@@ -55,19 +55,19 @@ dotnet build KyoboDumper\KyoboDumper.csproj -c Release
 성공 시 로그(`dump\dumper.log`) 예시:
 
 ```
-[BookOpen] >>> USER OPENED BOOK: "귀멸의 칼날. 1" | Type=zip
+[BookOpen] >>> USER OPENED BOOK: "<name>" | Type=zip
 [ZipExtract] Extracted to: C:\Users\...\ELibrary\B2C\<uuid>
-[Comic] Found KyoboDRM key: Key=k7K80x0OL3194880, IV=nJo75t33sX6E7USe. Decrypting all pages in one shot...
-[Dump] [SUCCESS] Packaged complete Comic in ONE SHOT: ...\dump\귀멸의_칼날.cbz (194 pages, 279361238 bytes)
+[Comic] Found KyoboDRM key: Key=<key>, IV=<iv>. Decrypting all pages in one shot...
+[Dump] [SUCCESS] Packaged complete Comic in ONE SHOT: ...\dump\<name>.cbz (194 pages, 279361238 bytes)
 ```
 
 EPUB 성공 로그 예시:
 ```
-[BookOpen] >>> USER OPENED BOOK: "재벌가 망나니는 SSS급 연금술사였다. 1" | Type=epub
+[BookOpen] >>> USER OPENED BOOK: "<name>" | Type=epub
 [ZipExtract] Extracted to: C:\Users\...\ELibrary\B2C\<uuid>
 [EPUB] Proactively decrypted Fasoo file: chapter1.xhtml (62512 bytes)
 [EPUB] Total 8 Fasoo chapter(s) decrypted in-place!
-[Dump] [SUCCESS] Packaged clean EPUB: ...\dump\재벌가_망나니는_SSS급_연금술사였다.epub (1607547 bytes)
+[Dump] [SUCCESS] Packaged clean EPUB: ...\dump\<name>.epub (1607547 bytes)
 ```
 
 ---

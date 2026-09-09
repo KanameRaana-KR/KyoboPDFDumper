@@ -1,4 +1,4 @@
-# KyoboPDFDumper
+# KyoboPDFDumper - Maybe patched by Kyobo
 
 교보문고 전자도서관 뷰어(`KyoboBook.Ebook.ELibrary.exe`)에서 **본인이 대출·구매·소장 중인 DRM 도서(PDF, EPUB, Comic)** 를 원본 그대로 추출하는 .NET 도구.
 

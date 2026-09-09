@@ -1,8 +1,10 @@
-# KyoboPDFDumper - Maybe patched by Kyobo
+# KyoboPDFDumper - Patched by Kyobo, Fasoo
 
 교보문고 전자도서관 뷰어(`KyoboBook.Ebook.ELibrary.exe`)에서 **본인이 대출·구매·소장 중인 DRM 도서(PDF, EPUB, Comic)** 를 원본 그대로 추출하는 .NET 도구.
 
 .NET Framework CLR의 `APPDOMAIN_MANAGER_ASM` / `APPDOMAIN_MANAGER_TYPE` 환경변수를 통해 뷰어 프로세스 시작 시 관리형 DLL(`KyoboDumper.dll`)을 인젝션하고, **Harmony** 로 뷰어 내부의 DRM 및 파일 추출 파이프라인을 후킹하여 뷰어가 메모리에 복호화한 **PDF 원본**, **EPUB 완본 패키지**, **만화(Comic) 초고화질 CBZ** 를 책 클릭 한 번에 1~2초 만에 자동으로 추출하여 저장합니다.
+
+이게 대기업의 패치지 꼼꼼하잖아
 
 ---
 
